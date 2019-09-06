@@ -1,0 +1,38 @@
+---
+title: "owner_JohnBanta"
+subtitle: "Due: Thursday 09/05/2019 by 10 pm"
+author: "John Banta"
+date: "Assigned: 09/03/2019"
+output: 
+  html_document:
+      number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Name
+
+My name is John Banta
+
+# My Major
+
+What I tell most people about my major is it's all getting me ready to be an actuary (a risk assessor).
+
+# Organizational Strategies
+
+I have a lot of organizational strategies but three are:
+
+## Colored folders
+
+I use different colored folders and match the color to the notebooks to 
+know which one is for each of my classes.
+
+## Every class gets its own file
+
+All of my classes has their own folder on my desktop to keep one class's work separate from all of my other classes.
+
+## PowerPlanner
+
+PowerPlanner is a useful app that I use to keep track of the homework throughout the semester. I even color the classes in the app to match the folders that I have for the corresponding classes. 
