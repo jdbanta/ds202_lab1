@@ -1,0 +1,28 @@
+---
+title: "Partner_karthikcharansuresh"
+author: "Karthikcharan Suresh"
+date: "9/11/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# partner Name
+
+My parteners name is John Banta and git account is jdbanta, my name is Karthikcharan Suresh, my github accoun name is ksuresh1001
+
+# My partners latest commit
+
+My partners latest git commit is "Please enter the commit message for your changes. Lines starting"
+
+# knit owners code
+
+yes I am able to knit my partners rmarkdown file without any error!
+
+## tip for making github easier
+
+you can drag drop the files or browse your files to push insteat of using terminal
+
