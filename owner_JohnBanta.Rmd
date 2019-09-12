@@ -36,3 +36,49 @@ All of my classes has their own folder on my desktop to keep one class's work se
 ## PowerPlanner
 
 PowerPlanner is a useful app that I use to keep track of the homework throughout the semester. I even color the classes in the app to match the folders that I have for the corresponding classes. 
+
+# Understanding Concepts
+
+  1. Git is an open source version control system that lets you have many different versions of your work by tracking the history of all the changes made to it at a time. On the other hand github is the interface of git to make it a little more user friendly.
+  
+  2. Git and Github are completely independent of each other, in fact you can use other git repositories like Assembla
+  
+  3. A repository in Git is the file where all of your work is stored. In the Git command window to do this is you would navigate to where you want all the files at using cd. Then you type the command mkdir NAME-OF-YOUR-NEW-DIRECTORY. Then you will have to use git add if there are files to add and then use git commit to save it.
+  
+# Coding Exercises
+  1. 
+```{r Part 1}
+X=c(47,34,33,65,37,NA,43,NA,11,NA,23,NA)
+#count NA in X
+sum(is.na(X))
+```
+  2. 
+```{r}
+age = c(25,30,45,60,12,41)
+smoker = c('T','F','T','F','F','F')
+weight = c(120,137,0,168,91,142)
+example_data = data.frame(age,smoker,weight)
+example_data
+#To replace with 150
+example_data[3,3]=150
+#Here you can see that the value has been changed
+example_data
+```
+  3.
+```{r}
+percent_of_NA<-function(X){
+  b<-sum(is.na(X))/length(X)
+  return(b)
+}
+percent_of_whole<-function(X){
+  c<-X/sum(X,na.rm=TRUE)
+}
+```
+  4.
+```{r}
+both_na<-function(X,Y){
+  a<-which(is.na(X)&is.na(Y))
+  return(a)
+}
+```
+  

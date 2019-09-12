@@ -380,7 +380,7 @@ summary {
 </div>
 <div id="organizational-strategies" class="section level1">
 <h1><span class="header-section-number">3</span> Organizational Strategies</h1>
-<p>I have a lot of organizational strategies but three are</p>
+<p>I have a lot of organizational strategies but three are:</p>
 <div id="colored-folders" class="section level2">
 <h2><span class="header-section-number">3.1</span> Colored folders</h2>
 <p>I use different colored folders and match the color to the notebooks to know which one is for each of my classes.</p>
@@ -393,6 +393,67 @@ summary {
 <h2><span class="header-section-number">3.3</span> PowerPlanner</h2>
 <p>PowerPlanner is a useful app that I use to keep track of the homework throughout the semester. I even color the classes in the app to match the folders that I have for the corresponding classes.</p>
 </div>
+</div>
+<div id="understanding-concepts" class="section level1">
+<h1><span class="header-section-number">4</span> Understanding Concepts</h1>
+<ol style="list-style-type: decimal">
+<li><p>Git is an open source version control system that lets you have many different versions of your work by tracking the history of all the changes made to it at a time. On the other hand github is the interface of git to make it a little more user friendly.</p></li>
+<li><p>Git and Github are completely independent of each other, in fact you can use other git repositories like Assembla</p></li>
+<li><p>A repository in Git is the file where all of your work is stored. In the Git command window to do this is you would navigate to where you want all the files at using cd. Then you type the command mkdir NAME-OF-YOUR-NEW-DIRECTORY. Then you will have to use git add if there are files to add and then use git commit to save it.</p></li>
+</ol>
+</div>
+<div id="coding-exercises" class="section level1">
+<h1><span class="header-section-number">5</span> Coding Exercises</h1>
+<ol style="list-style-type: decimal">
+<li></li>
+</ol>
+<pre class="r"><code>X=c(47,34,33,65,37,NA,43,NA,11,NA,23,NA)
+#count NA in X
+sum(is.na(X))</code></pre>
+<pre><code>## [1] 4</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li></li>
+</ol>
+<pre class="r"><code>age = c(25,30,45,60,12,41)
+smoker = c(&#39;T&#39;,&#39;F&#39;,&#39;T&#39;,&#39;F&#39;,&#39;F&#39;,&#39;F&#39;)
+weight = c(120,137,0,168,91,142)
+example_data = data.frame(age,smoker,weight)
+example_data</code></pre>
+<pre><code>##   age smoker weight
+## 1  25      T    120
+## 2  30      F    137
+## 3  45      T      0
+## 4  60      F    168
+## 5  12      F     91
+## 6  41      F    142</code></pre>
+<pre class="r"><code>#To replace with 150
+example_data[3,3]=150
+#Here you can see that the value has been changed
+example_data</code></pre>
+<pre><code>##   age smoker weight
+## 1  25      T    120
+## 2  30      F    137
+## 3  45      T    150
+## 4  60      F    168
+## 5  12      F     91
+## 6  41      F    142</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li></li>
+</ol>
+<pre class="r"><code>percent_of_NA&lt;-function(X){
+  b&lt;-sum(is.na(X))/length(X)
+  return(b)
+}
+percent_of_whole&lt;-function(X){
+  c&lt;-X/sum(X,na.rm=TRUE)
+}</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li></li>
+</ol>
+<pre class="r"><code>both_na&lt;-function(X,Y){
+  a&lt;-which(is.na(X)&amp;is.na(Y))
+  return(a)
+}</code></pre>
 </div>
 
 
