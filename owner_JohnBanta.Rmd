@@ -72,6 +72,7 @@ percent_of_NA<-function(X){
 }
 percent_of_whole<-function(X){
   c<-X/sum(X,na.rm=TRUE)
+  return(c)
 }
 ```
   4.
